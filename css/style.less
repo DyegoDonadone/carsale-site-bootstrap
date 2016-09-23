@@ -26,8 +26,14 @@
 }
 
 @-webkit-keyframes go {
-    from {right: 500px;}
-    to {right: 0px;}
+    0% { 
+    	right: 200px;
+        transform: translatex(-100px) translatey(-100px)
+    }
+    100% {
+    	right: 0px;
+        transform: translatex(0px) translatey(0px);
+    }
 }
 
 @keyframes go {
