@@ -18,8 +18,27 @@
 	color: @vermelho;
 	width: 400px;
 	img {
+		position: relative;
 		width: 20%;
+		-webkit-animation: go 1.5s;
+    	animation: go 1.5s;
 	}
+}
+
+@-webkit-keyframes go {
+    from {right: 500px;}
+    to {right: 0px;}
+}
+
+@keyframes go {
+    0% { 
+    	right: 200px;
+        transform: translatex(-100px) translatey(-100px)
+    }
+    100% {
+    	right: 0px;
+        transform: translatex(0px) translatey(0px);
+    }
 }
 
 .logo:hover {
@@ -167,6 +186,50 @@ h3 {
 
 .titulo{
 	padding-bottom: 10px;
+}
+
+.invert {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    transition: all ease-in-out 0.7s;
+}
+.invert:hover {
+    -webkit-filter: invert(0);
+    filter: invert(0);
+}
+
+.sepia {
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+    transition: all ease-in-out 0.7s;
+}
+.sepia:hover {
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+}
+
+.pb {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all ease-in-out 0.7s;
+}
+.pb:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.blur {
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(7px);
+    filter: blur(7px);
+    transition: all ease-in-out 0.7s;
+}
+.blur:hover {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    filter: blur(0px);
 }
 
 @media (max-width: 481px) {

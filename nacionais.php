@@ -14,7 +14,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-6 col-xs-12 ">
+		<div class="col-md-3 col-sm-6 col-xs-12">
 			<div class="thumbnail">
 				<img src="imgs/gol.jpeg" alt="gol">
 				<h2>VW GOL GTS</h2>

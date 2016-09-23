@@ -42,7 +42,7 @@
 	<div class="row">
 		<div class="col-md-3 col-sm-6 col-xs-12">
 			<div class="thumbnail">
-				<img src="imgs/maverick.jpg" alt="Maverick">
+				<img src="imgs/maverick.jpg" alt="Maverick" class="sepia">
 				<h2>Maverick 8V 1971</h2>
 				<p>Carro todo restaurado, mecânica toda feita, motor novo. Carburador Quadrijet 600 Edelbrock.</p>
 				<a href="maverick" class="btn btn-danger btn-lg">
@@ -52,7 +52,7 @@
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12 ">
 			<div class="thumbnail">
-				<img src="imgs/ferrari.jpg" alt="Ferrari">
+				<img src="imgs/ferrari.jpg" alt="Ferrari" class="pb">
 				<h2>Ferrari 1999</h2>
 				<p>Carro todo restaurado, mecânica toda feita, motor novo. Carburador Quadrijet 600 Edelbrock.</p>
 				<a href="ferrari" class="btn btn-danger btn-lg">
@@ -62,7 +62,7 @@
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12 ">
 			<div class="thumbnail">
-				<img src="imgs/landau.jpg" alt="Mustang">
+				<img src="imgs/landau.jpg" alt="Mustang" class="blur">
 				<h2>Ford Landau 1971</h2>
 				<p>Carro todo restaurado, mecânica toda feita, motor novo. Carburador Quadrijet 600 Edelbrock.</p>
 				<a href="landau" class="btn btn-danger btn-lg">
@@ -72,7 +72,7 @@
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12 ">
 			<div class="thumbnail">
-				<img src="imgs/opala.jpg" alt="Opala">
+				<img src="imgs/opala.jpg" alt="Opala" class="invert">
 				<h2>Ford Opala 1984</h2>
 				<p>Carro todo restaurado, mecânica toda feita, motor novo. Carburador Quadrijet 600 Edelbrock.</p>
 				<a href="opala" class="btn btn-danger btn-lg">
