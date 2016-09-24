@@ -153,7 +153,7 @@
 		if (file_exists($page))
 			include $page;
 		else
-			include "erro.php";
+			include "erro.php"; 
 
 	?>
 	</main>
@@ -171,6 +171,11 @@
 			</span>
 		</div>
 	</footer>
+	<script type="text/javascript">
+		function fechar(){
+			$('.modal').modal('hide')
+		}
+	</script>
 </body>
 </html>
 
